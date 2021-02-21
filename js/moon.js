@@ -8,7 +8,7 @@ const n = new Date(d) - 18000000
 // format date to be unserstood by API
 dt = n/1000|0
 
-const url = `http://api.farmsense.net/v1/moonphases/?d=${dt}`
+const url = `https://api.farmsense.net/v1/moonphases/?d=${dt}`
 
 // fetch our info from the API
 fetch(url)
